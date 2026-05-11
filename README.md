@@ -32,7 +32,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -51,8 +50,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-Note: These are just examples. Delete this note and replace the list above with your own choices.
 
 ### What I learned
 
@@ -91,20 +88,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 1](https://www.w3schools.com/html/html_tables.asp) - This helped me for creating `html` tables. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+This is where I curated my speech with AI not only to provide the answers but help me understand the concepts better. I used AI to help me with the following:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+- You can't directly add an `<hr>` element inside a `<table>`. However, you can use CSS to achieve a similar effect. For example, you can add a border to the `<td>` elements to create a horizontal line between rows.
+- Also used `Google` to find some how to know answers e.g "How to add a `favicon` in an html `link` tag.
 
 ## Author
 
