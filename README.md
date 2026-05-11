@@ -56,12 +56,15 @@ Note: These are just examples. Delete this note and replace the list above with 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Use this section to recap over some of my learnings while working through this project. Writing these out and providing code samples of areas I want to highlight on my own knowledge.
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+<th></th>
+<td></td>
+You can't directly add a <hr> element inside a <table>, but you can use CSS to achieve a similar effect.
 ```
 
 ```css
