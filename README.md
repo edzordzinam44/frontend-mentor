@@ -32,7 +32,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
