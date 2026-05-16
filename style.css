@@ -91,3 +91,8 @@ img {
     color: var(--accent);
     font-weight: 700;
 }
+
+.section-title {
+    font-size: 1.4rem;
+    color: var(--accent);
+}
