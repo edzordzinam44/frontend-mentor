@@ -104,6 +104,7 @@ img {
     margin: 20px 0;
 }
 
+/* Ingredients */
 .ingredients {
     margin-top: 20px;
     list-style: disc;
@@ -114,7 +115,39 @@ img {
     margin-bottom: 20px;
 }
 
+.ingredients ul {
+    list-style: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
 .ingredients li {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Instructions */
+.instructions {
+    margin-top: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.instructions ol li {
     color: var(--text-muted);
     font-size: 1rem;
     line-height: 1.5;
