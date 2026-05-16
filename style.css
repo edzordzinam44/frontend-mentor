@@ -93,6 +93,29 @@ img {
 }
 
 .section-title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: var(--accent);
+}
+
+/* HR ELEMENT */
+.divider {
+    border: none;
+    border-top: 1px solid var(--divider);
+    margin: 20px 0;
+}
+
+.ingredients {
+    margin-top: 20px;
+    list-style: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.ingredients li {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.5;
 }
