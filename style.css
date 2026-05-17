@@ -167,6 +167,10 @@ img {
     margin-bottom: 20px;
 }
 
+.nutrition h2 {
+    margin-bottom: 15px;
+}
+
 .nutrition-table {
     width: 100%;
     border-collapse: collapse;
