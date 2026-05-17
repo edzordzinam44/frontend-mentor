@@ -18,24 +18,21 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
-![Screenshot of the recipe page solution](./screenshotpg)
+![Screenshot of the recipe page solution](./screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+> 💡 I added a screenshot of what I built take a look at it and give me a feedback.
+> Not soo perfectbut Hope you'd like it for as far as I have come.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://your-solution-url.com)
+- Live Site URL: [live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -44,17 +41,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Used mostly % to control responsiveness and some media queries for the breakpoints
 
 ### What I learned
 
-Use this section to recap over some of my learnings while working through this project. Writing these out and providing code samples of areas I want to highlight on my own knowledge.
-
-To see how you can add code snippets, see below:
+Used this section to recap over some of my learnings while working through this project. Writing these out and providing code samples of areas I want to highlight on my own knowledge.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -64,26 +55,16 @@ You can't directly add a <hr> element inside a <table>, but you can use CSS to a
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.nutrition-table tr {
+    border-bottom: 1px solid var(--divider);
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- I want to continue practicing using `flexbox` and `media queries` to create responsive layouts.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
