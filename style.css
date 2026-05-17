@@ -137,6 +137,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-bottom: 20px;
 }
 
 .instructions ol {
@@ -151,4 +152,42 @@ img {
     color: var(--text-muted);
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.instructions ol li strong {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* Nutrition Table */
+.nutrition {
+    margin-top: 20px;
+    font-size: 1.rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid var(--divider);
+}
+
+.nutrition-table td {
+    padding: 12px 4px;
+    font-size: 0.9rem;
+}
+
+.nutrition-table td:first-child {
+    color: var(--text-muted);
+}
+
+.nutrition-table td:last-child {
+    color: var(--nutrition-value);
+    font-weight: 700;
+    /* text-align: right; */
 }
