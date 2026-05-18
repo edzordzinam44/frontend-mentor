@@ -16,8 +16,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
     - [Useful resources](#useful-resources)
     - [AI Collaboration](#ai-collaboration)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -27,7 +25,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 > 💡 I added a screenshot of what I built take a look at it and give me a feedback.
 > Not soo perfectbut Hope you'd like it for as far as I have come.
-
 
 ### Links
 
@@ -41,7 +38,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Used mostly % to control responsiveness and some media queries for the breakpoints
+- Used mostly percentages '%' to control responsiveness and some media queries for the breakpoints
 
 ### What I learned
 
@@ -63,13 +60,14 @@ You can't directly add a <hr> element inside a <table>, but you can use CSS to a
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
 - I want to continue practicing using `flexbox` and `media queries` to create responsive layouts.
-
-
+- I also want to continue practicing using `CSS custom properties` to make my styles more maintainable and easier to read.
+  
 ### Useful resources
 
 - [Example resource 1](https://www.w3schools.com/html/html_tables.asp) - This helped me for creating `html` tables. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images) - This is an amazing article which helped me go in depth to HTML responsive images. I'd recommend it to anyone still learning this concept.
 
 ### AI Collaboration
 
@@ -81,11 +79,5 @@ This is where I curated my speech with AI not only to provide the answers but he
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Frontend Mentor - [@edzordzinam44](https://www.frontendmentor.io/profile/edzordzinam44)
+- Twitter - [@fabuloushope_](https://www.twitter.com/fabuloushope_)
