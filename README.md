@@ -78,6 +78,6 @@ This is where I curated my speech with AI not only to provide the answers but he
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Using Github for now](https://www.your-site.com)
 - Frontend Mentor - [@edzordzinam44](https://www.frontendmentor.io/profile/edzordzinam44)
 - Twitter - [@fabuloushope_](https://www.twitter.com/fabuloushope_)
