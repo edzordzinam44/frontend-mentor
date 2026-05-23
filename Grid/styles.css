@@ -2,5 +2,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'young-serif', sans-serif;
+    /* font-family: 'young-serif', sans-serif; */
+}
+
+:root {
+    --bg: hsl(0, 0%, 100%);
+    --text-main: hsl(0, 0%, 7%);
+    --card-bg: hsl(256, 67%, 59%);
+    --card-bg-light: hsl(254, 88%, 90%);
+    --card-bg-yellow: hsl(39, 100%, 71%);
+    --card-bg-yellow-light: hsl(31, 66%, 93%);
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400, 500;
+    background: var(--bg);
+    color: var(--text-main);
+}
+
+main {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 1.5rem;
+}
+
+.card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: var(--card-bg-yellow-light);
+}
+
+.first-section {
+    background: var(--card-bg-yellow);
+}
+
+.second-section {
+    background: var(--card-bg);
+}
+
+/* .third-section {
+    background: var(--card-bg-light);
+} */
+
+.fourth-section {
+    background: var(--card-bg-yellow);
+}
+
+.fifth-section {
+    background: var(--card-bg-light);
+}
+
+.sixth-section {
+    background: var(--card-bg);
 }
