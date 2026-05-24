@@ -16,21 +16,23 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
-    font-weight: 400, 500;
+    font-weight: 400;
+    margin: 50px;
     background: var(--bg);
     color: var(--text-main);
 }
 
-main {
+.container {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    gap: 1.5rem;
+    /* width: 10%; */
+    grid-gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card {
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
 }
 
 .header {
