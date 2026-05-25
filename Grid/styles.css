@@ -24,41 +24,9 @@ body {
 
 .container {
     display: grid;
-    /* width: 10%; */
-    grid-gap: 2.5rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.card {
-    border-radius: 15px;
-    padding: 2rem;
-}
-
-.header {
-    background: var(--card-bg-yellow-light);
-}
-
-.first-section {
-    background: var(--card-bg-yellow);
-}
-
-.second-section {
-    background: var(--card-bg);
-}
-
-/* .third-section {
-    background: var(--card-bg-light);
-} */
-
-.fourth-section {
-    background: var(--card-bg-yellow);
-}
-
-.fifth-section {
-    background: var(--card-bg-light);
-}
-
-.sixth-section {
-    background: var(--card-bg);
+    grid-template-columns: 280px 1fr 280px;
+    grid-template-rows: auto auto auto;
+    gap: 16px;
+    max-width: 980px;
+    width: 100%;
 }
