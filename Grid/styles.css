@@ -26,7 +26,17 @@ body {
     display: grid;
     grid-template-columns: 280px 1fr 280px;
     grid-template-rows: auto auto auto;
-    gap: 16px;
-    max-width: 980px;
+    gap: 20px;
+    /* max-width: 980px; */
     width: 100%;
+}
+
+.container img {
+    width: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 30px;
 }
