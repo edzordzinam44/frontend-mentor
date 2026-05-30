@@ -132,3 +132,61 @@ body {
     font-weight: 500;
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        height: auto;
+        text-align: center;
+    }
+
+    .header img {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .second-section {
+        height: auto;
+        text-align: center;
+    }
+
+    .line img {
+        width: 80%;
+    }
+
+    .line p {
+        margin: 20px auto;
+    }
+
+    .fifth-section {
+        height: auto;
+    }
+
+    .fifth-section div:first-child h3 {
+        font-size: 2rem;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .fifth-section img {
+        left: 0;
+        padding: 20px 0;
+    }
+
+    .fifth-section p {
+        padding: 20px;
+        text-align: center;
+    }
+}
