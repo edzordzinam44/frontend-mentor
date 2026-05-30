@@ -117,3 +117,18 @@ body {
     font-size: 2.5rem;
     padding: 20px;
 }
+
+.fifth-section img {
+    position: relative;
+    display: block;
+    left: 60px;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.fifth-section p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 20px;
+}
