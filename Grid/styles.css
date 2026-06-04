@@ -25,3 +25,11 @@ body {
   grid-template-columns: 200px 1fr 200px;
   gap: 20px;
 }
+
+.card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  border: 1px solid black;
+}
