@@ -52,5 +52,10 @@ body {
 }
 
 .card-create em {
-  color: var(--yellow-bg)
+  color: var(--yellow-bg);
+  font-style: italic;
+}
+
+.btn-create {
+  display: inline-flex;
 }
