@@ -22,7 +22,7 @@ body {
 
 .bento-grid {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: auto auto auto;
   gap: 20px;
 }
 
@@ -41,5 +41,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 320px;
+  /* min-height: 320px; */
+}
+
+.card-create h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+.card-create em {
+  color: var(--yellow-bg)
 }
