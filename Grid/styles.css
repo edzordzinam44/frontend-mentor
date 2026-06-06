@@ -61,7 +61,7 @@ body {
   align-items: center;
   gap: 8px;
   background: var(--yellow);
-  color: var(--dark);
+  color: var(--purple);
   width: fit-content;
   border: none;
   padding: 10px 20px;
