@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 10%;
   /* min-height: 320px; */
 }
 
@@ -49,6 +50,7 @@ body {
   font-weight: 700;
   color: var(--dark);
   line-height: 1.2;
+  margin-left: 10%
 }
 
 .card-create em {
@@ -71,4 +73,15 @@ body {
   margin-top: 20px;
   position: relative;
   cursor: pointer;
+}
+
+.diamond {
+  font-size: 0.9rem;
+}
+
+.cursor-icon {
+  position: absolute;
+  right: 28px;
+  bottom: 28px;
+  font-size: 1.5rem;
 }
