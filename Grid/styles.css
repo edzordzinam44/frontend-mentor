@@ -35,6 +35,8 @@ body {
   border: 1px solid black;
 }
 
+/* Card Create Section */
+
 .card-create {
   background: var(--peach);
   grid-column: 1;
@@ -95,6 +97,9 @@ body {
   cursor: pointer;
 }
 
+
+/* Card Hero Section */
+
 .card-hero {
   background: var(--purple);
   grid-row: 1;
@@ -129,4 +134,14 @@ body {
 .reviews {
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+/* Card Schedule Section */
+
+.card-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 20px 30px;
 }
