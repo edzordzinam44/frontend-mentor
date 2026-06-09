@@ -22,7 +22,7 @@ body {
 
 .bento-grid {
   display: grid;
-  grid-template-columns: 300px auto 300px;
+  grid-template-columns: 20% auto 20%;
   grid-template-rows: auto;
   gap: 10px;
 }
@@ -85,6 +85,14 @@ body {
   right: 28px;
   bottom: 28px;
   font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 10px;
+  background: var(--yellow);
+}
+
+.cursor-icon:hover {
+  cursor: pointer;
 }
 
 .card-hero {
