@@ -24,6 +24,7 @@ body {
   display: grid;
   grid-template-columns: 20% auto 20%;
   grid-template-rows: auto;
+  grid-auto-rows: 1fr;
   gap: 10px;
 }
 
@@ -139,9 +140,11 @@ body {
 /* Card Schedule Section */
 
 .card-schedule {
+  background: var(--purple-light);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 0 20px 30px;
+  /* padding: 50px 0 20px 30px; */
+  grid-row: span 2;
 }
