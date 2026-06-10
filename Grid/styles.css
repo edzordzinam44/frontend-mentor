@@ -145,6 +145,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 50px 0 20px 30px; */
-  grid-row: span 2;
+  gap: 20px;
+}
+
+.card-schedule h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+.best-time-box {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.best-time-box h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+
+.day-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
 }
