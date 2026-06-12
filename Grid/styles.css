@@ -187,6 +187,7 @@ body {
 .day-tab.active {
   background-color: #ff6b6b;
   color: var(--white);
+  border-radius: 20px;
 }
 
 .most-active-badge {
@@ -196,8 +197,14 @@ body {
   font-weight: 700;
   padding: 3px 8px;
   border-radius: 20px;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 12px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bar-chart {
@@ -205,4 +212,17 @@ body {
   align-items: flex-end;
   gap: 8px;
   height: 70px;
+}
+
+.bar {
+  flex: 1;
+  background: var(--purple-light);
+  border-radius: 6px 6px 0 0;
+}
+
+.bar.active { background: var(--purple) }
+.bar-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
 }
