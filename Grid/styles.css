@@ -226,3 +226,15 @@ body {
   justify-content: space-between;
   margin-top: 6px;
 }
+
+.bar-labels { font-size: 0.7rem; color: var(--text-muted); }
+.card-schedule p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.card-manage {
+  background: var(--white);
+  grid-column: 2;
+}
