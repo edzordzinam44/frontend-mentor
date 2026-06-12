@@ -163,11 +163,12 @@ body {
 
 .best-time-box h4 {
   font-size: 0.85rem;
+  text-align: end;
   font-weight: 700;
   color: var(--dark);
   margin-bottom: 12px;
-  margin-left: 50%;
-  transform: translateY(-50%);
+  /* margin-left: 40%; */
+  /* transform: translateY(-50%); */
 }
 
 .day-tabs {
@@ -183,3 +184,25 @@ body {
   color: var(--text-muted);
 }
 
+.day-tab.active {
+  background-color: #ff6b6b;
+  color: var(--white);
+}
+
+.most-active-badge {
+  background: var(--green);
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 70px;
+}
