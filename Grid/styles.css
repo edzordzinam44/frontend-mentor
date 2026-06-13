@@ -134,7 +134,7 @@ body {
 
 .reviews {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 /* Card Schedule Section */
@@ -232,6 +232,7 @@ body {
   font-size: 0.85rem;
   color: var(--text-muted);
   line-height: 1.5;
+  font-weight: 900;
 }
 
 .card-manage {
