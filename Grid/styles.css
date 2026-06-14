@@ -9,7 +9,6 @@
   --peach: #fdf0e8;
   --white: #ffffff;
   --dark: #1a1a1a;
-  --gray-bg: #f0f0f4;
   --green: #4caf7d;
   --text-muted: #666;
   --radius: 20px;
@@ -31,7 +30,7 @@ body {
 .card {
   border-radius: var(--radius);
   overflow: hidden;
-  padding: 20px;
+  padding: var(--radius);
   position: relative;
   border: 1px solid black;
 }
@@ -281,4 +280,66 @@ body {
   font-weight: 800;
   color: var(--dark);
   line-height: 1.25;
+}
+
+.card-write {
+  background-color: var(--yellow-bg);
+  grid-column: 1;
+  grid-row: 2 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 16px; */
+  min-height: 380px;
+}
+
+.card-write h2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 1.2;
+  color: var(--dark);
+  font-size: 1.95rem;
+  margin: 10%;
+  /* margin-top: auto; */
+}
+
+.chat-bubbles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.bubble {
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  max-width: 85%;
+  overflow: auto;
+}
+
+.bubble-user {
+  background: var(--yellow);
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.bubble-ai {
+  background: var(--purple-light);
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.bubble-icon {
+  font-size: 1rem;
+  margin: auto auto;
 }
