@@ -343,3 +343,8 @@ body {
   font-size: 1rem;
   margin: auto auto;
 }
+
+
+.card-stat {
+  background: var(--white);
+}
