@@ -347,9 +347,11 @@ body {
 
 .card-stat {
   background: var(--white);
-  grid-column: 2;
-  grid-row: 3;
+  /* grid-column: 1 / 2;
+  grid-row: 3; */
   display: flex;
+  flex: flex-start;
+  /* justify-content: center; */
   flex-direction: column;
   gap: 8px;
 }
@@ -364,6 +366,7 @@ body {
 .stat-label {
   font-size: 0.9rem;
   color: var(--text-muted);
+  font-weight: 900;
 }
 
 .avatar-stack {
