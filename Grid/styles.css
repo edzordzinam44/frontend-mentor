@@ -396,3 +396,75 @@ body {
   /* align-items: center; */
   gap: 20px;
 }
+
+.card-grow h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.25;
+  flex: 1;
+}
+
+.growth-stats {
+  background: var(--purple-light);
+  border-radius: 14px;
+  padding: 14px;
+  min-width: 150px;
+  flex-shrink: 0;
+}
+
+.growth-label { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 4px;}
+.growth-num {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--dark);
+}
+
+.growth-badge {
+  background: var(--white);
+  color: #1a8a4a;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.mini-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 40px;
+  margin: 3px 0;
+}
+
+.mini-bar {
+  flex: 1;
+  background: var(--purple-light);
+  border-radius: 3px 3px 0 0;
+}
+
+.mini-bar.active { background: var(--purple); }
+.growth-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--yellow-bg);
+  border-radius: 50%;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.followers-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.followers-num {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--dark);
+}
