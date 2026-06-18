@@ -32,7 +32,7 @@ body {
   overflow: hidden;
   padding: var(--radius);
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* Card Create Section */
@@ -87,7 +87,7 @@ body {
   right: 28px;
   bottom: 28px;
   font-size: 1.5rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 100px;
   padding: 10px;
   background: var(--yellow);
@@ -235,7 +235,7 @@ body {
 }
 
 .card-manage {
-  background: var(--white);
+  background: var(--purple-light);
   grid-column: 2;
   grid-row: 2;
   display: flex;
@@ -246,7 +246,7 @@ body {
 .social-accounts {
   display: flex;
   gap: 12px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-bottom: auto;
 }
 
@@ -257,7 +257,7 @@ body {
   background: var(--white);
   border-radius: 50px;
   padding: 8px 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .account-icon {
@@ -379,7 +379,6 @@ body {
   height: 40px;
   border-radius: 50%;
   border: 2px solid white;
-  /* margin-left: -10px; */
   font-size: 1.6rem;
 }
 
@@ -389,11 +388,8 @@ body {
 
 .card-grow {
   background: var(--purple);
-  /* grid-column: 3;
-  grid-row: 3; */
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   gap: 20px;
 }
 
@@ -467,4 +463,48 @@ body {
   font-size: 1rem;
   font-weight: 800;
   color: var(--dark);
+}
+
+.posting-mini {
+  background: var(--yellow-bg);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.posting-mini h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--dark);
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.posting-week {
+  background: var(--purple);
+  color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.check-row {
+  display: flex;
+  gap: 10px;
+}
+
+.check {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 0.8rem;
 }
