@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 15%, 48%);
+}
+
+.qr-code {
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 10px;
+    width: 89%;
+}
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    width: 20%;
+    height: 70%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.wrapper-header {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    margin: 10px 30px;
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+}
