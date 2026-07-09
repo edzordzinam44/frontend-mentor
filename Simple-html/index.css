@@ -32,12 +32,16 @@ img {
     padding: 10px;
 }
 
-.wrapper-header {
+.wrapper-header p {
     display: flex;
     justify-content: column;
     align-items: center;
-    margin: 10px 30px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    /* margin: 10px 30px; */
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
+    padding-bottom: 10px;
     color: hsl(218, 44%, 22%);
 }
