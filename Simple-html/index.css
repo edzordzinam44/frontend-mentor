@@ -45,3 +45,15 @@ img {
     padding-bottom: 10px;
     color: hsl(218, 44%, 22%);
 }
+
+.section-tab {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 10px;
+    color: hsl(216, 15%, 48%);
+}
