@@ -57,3 +57,11 @@ img {
     padding-top: 10px;
     color: hsl(216, 15%, 48%);
 }
+
+@media (max-width: 860px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
