@@ -70,13 +70,12 @@ To see how you can add code snippets, see below:
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ### AI Collaboration
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- What tools did you use ( ChatGPT, Claude, Gemini)?
+- How did you use them -- I prompted to help solve the responsiveness of the mobile version by asking what specific elements I needed in the code rather than they providing the codes.?
+- What worked well? What didn't? -- I think from nowonwards prompting the AI too code alongside with me is the best way to learn rather than cpoying the codes and this really opened my eyes in research basis.
 
 ## Author
 
