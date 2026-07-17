@@ -65,7 +65,7 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-- I would like to focus more on learning about accessibility and responsive design. I would also like to learn more about CSS Grid and Flexbox, as well as how to use them together effectively.
+- I would like to focus more on learning about accessibility and responsive design. I would also like to learn more about CSS Grid, Responsiveness and Flexbox, as well as how to use them together effectively.
 
 ### Useful resources
 
