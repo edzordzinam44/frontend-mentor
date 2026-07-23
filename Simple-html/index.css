@@ -20,7 +20,8 @@
 
 img {
     border-radius: 10px;
-    width: 89%;
+    width: 100%;
+    height: auto;
 }
 
 /* Container Section */
@@ -28,6 +29,7 @@ img {
     background-color: hsl(212, 45%, 89%);
     width: 20%;
     height: 70%;
+    min-width: 300px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -58,10 +60,22 @@ img {
     color: hsl(216, 15%, 48%);
 }
 
-@media (max-width: 860px) {
+/* @media (max-width: 860px) {
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+} */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .wrapper.header {
+    font-size: 20px;
+    font-weight: 900;
+  }
 }
